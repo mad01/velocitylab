@@ -2,7 +2,7 @@
   "id": "/madvelocity-mesosphere",
   "cpus": 1,
   "mem": 128,
-  "instances": 1,
+  "instances": 0,
   "container": {
     "docker": {
       "image": "madvelocity/vny:latest",
