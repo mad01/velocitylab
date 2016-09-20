@@ -10,7 +10,8 @@
         {
           "containerPort": 80,
           "protocol": "tcp",
-          "name": "http"
+          "name": "http",
+          "servicePort": 0
         }
       ],
       "network": "BRIDGE"
@@ -32,13 +33,5 @@
     "DCOS_SERVICE_SCHEME": "http",
     "DCOS_SERVICE_NAME": "madvelocity-mesosphere",
     "HAPROXY_GROUP": "external"
-  },
-  "portMappings": [
-        {
-          "containerPort": 80,
-          "protocol": "tcp",
-          "name": "http",
-          "servicePort": 0
-        }
-    ]
+  }
 }
